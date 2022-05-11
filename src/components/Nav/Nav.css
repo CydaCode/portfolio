@@ -1,0 +1,45 @@
+nav {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   padding: 0.7rem 1.7rem; 
+   background-color: var(--color-bg-variant);
+   width: max-content;
+   position: fixed;
+   /* align-items: center; */
+   left: 50%;
+   bottom: 90%;
+   transform: translateX(-50%);
+   z-index: 2;
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-dark);
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+nav a.active {
+    background: rgba(255, 255, 255, 0.3);
+    color: var(--color-dark);
+}
+
+/* *************MEDIA QUERIES (SMALL DEVICE)*********** */
+  
+@media  screen and (max-width: 600px) {
+    nav a {
+        background: transparent;
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        color: var(--color-dark);
+        font-size: 1rem;
+    }
+}
