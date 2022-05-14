@@ -1,5 +1,6 @@
 #about {
     padding-top: 6rem;
+    /* height: 120vh; */
 }
 
 .about-container {
@@ -95,17 +96,35 @@
     .about-content p {
         margin: 1rem 0 1.5rem;
     }
+
+    #about {
+        padding-top: 6rem;
+        /* height: 170vh; */
+    }
   }
 
 /* *************MEDIA QUERIES (SMALL DEVICE)*********** */
   
 @media  screen and (max-width: 600px) {
     .about-me {
-        width: 65%;
+        width: 60%;
         margin: 0 auto 3rem;
     }
    
+    .about-content {
+        text-align: center;
+    }
     .about-content p {
         margin: 1.5rem 0;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    #about {
+        padding-top: 6rem;
+        /* height: 200vh; */
     }
   }

@@ -1,5 +1,5 @@
 header {
-    height: 130vh;
+    /* height: 100vh; */
     padding-top: 6rem;
     overflow: hidden;
     
@@ -84,7 +84,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     .container {
-      height: 68vh
+      /* height: 68vh */
     }  
     .me {
         background: linear-gradient(var(--color-primary), transparent);
@@ -133,7 +133,7 @@ header {
   
   @media  screen and (max-width: 600px) {
     .container {
-     height: 100vh;
+     /* height: 100vh; */
     } 
     .me {
         background: linear-gradient(var(--color-primary), transparent);
@@ -160,6 +160,10 @@ header {
         align-items: center;
         padding-left: 0rem;
         
+    }
+
+    header {
+        /* height: 130vh; */
     }
    
   }
