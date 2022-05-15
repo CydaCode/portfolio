@@ -13,8 +13,9 @@ import Services from './components/Services/Services';
 function App() {
   return (
    <>
-   <Nav />
+   
     <Header />
+    <Nav />
     <About />
     <Experience />
     <Services />

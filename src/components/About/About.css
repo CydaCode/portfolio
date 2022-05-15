@@ -1,6 +1,5 @@
 #about {
-    padding-top: 6rem;
-    /* height: 120vh; */
+    padding-top: 1.5rem;
 }
 
 .about-container {
@@ -75,7 +74,7 @@
 }
 
 .about-content p {
-    margin: 2rem 0 2.6rem;
+    margin: 6rem 0 2.6rem;
     color: var(--color-dark);
 }
 
@@ -97,10 +96,7 @@
         margin: 1rem 0 1.5rem;
     }
 
-    #about {
-        padding-top: 6rem;
-        /* height: 170vh; */
-    }
+
   }
 
 /* *************MEDIA QUERIES (SMALL DEVICE)*********** */
@@ -123,8 +119,5 @@
         gap: 0.5rem;
     }
 
-    #about {
-        padding-top: 6rem;
-        /* height: 200vh; */
-    }
+   
   }

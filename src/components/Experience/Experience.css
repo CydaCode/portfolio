@@ -1,7 +1,17 @@
 
 #experience {
-    padding-top: 6rem;
+    padding-top: 3.9rem;
+    background: var(--color-bg1);
     /* margin-top: 75%; */
+    padding-bottom: 3.5rem;
+}
+
+#experience h5 {
+    color: black;
+}
+
+#experience h2 {
+    color: var(--color-bg-varient);
 }
 .experience-container {
     display: grid;
@@ -18,17 +28,18 @@
     margin-top: 4rem;
 }
 
-.experience-container > div:hover {
+/* .experience-container > div:hover {
     background: transparent;
     border-color: var(--color-primary-varient);
     cursor: default;
-}
+} */
 
 .experience-container > div h3 {
     color: var(--color-primary);
     text-align: center;
     margin-bottom: 2rem;
 }
+
 
 .experience-content {
     display: grid;

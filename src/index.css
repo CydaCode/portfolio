@@ -11,6 +11,7 @@
 }
 
 :root {
+  --color-bg1:  #a1a1c9;
   --color-bg:  #313159;
   --color-bg-variant: #0b0b30;
   --color-primary: #4DB5FF;

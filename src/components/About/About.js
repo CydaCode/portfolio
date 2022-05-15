@@ -19,7 +19,7 @@ const About = () => {
         </div>
 
         <div className='about-content'>
-          <div className='about-cards'>
+          {/* <div className='about-cards'>
             <article className='about-card'>
               <FaAward className='about-icon'/>
               <h5>Experience</h5>
@@ -37,26 +37,13 @@ const About = () => {
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
-          </div>
+          </div> */}
           <p>
-            Lorem ipsum dolor sit, 
-            amet consectetur adipisicing
-            elit. Possimus commodi nobis
-            non voluptates esse vero 
-            laudantium quibusdam odit 
-            voluptatum a iste natus, 
-            voluptatibus exercitationem 
-            ducimus mollitia minima ut
-            expedita omnis.
-            Lorem ipsum dolor sit, 
-            amet consectetur adipisicing
-            elit. Possimus commodi nobis
-            non voluptates esse vero 
-            laudantium quibusdam odit 
-            voluptatum a iste natus, 
-            voluptatibus exercitationem 
-            ducimus mollitia minima ut
-            expedita omnis.
+          Cynthia Nwankwo is a meticulous Front-End Web developer with
+          experience who has passion for responsive website design and a 
+          firm believer in the mobile-first approach. I have worked with 
+          teams of various size and made meaningful contributions.
+
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
