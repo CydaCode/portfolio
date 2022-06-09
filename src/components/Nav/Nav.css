@@ -3,7 +3,7 @@ nav {
    justify-content: center;
    gap: 2rem;
    padding: 0.5rem 1.7rem; 
-   background-color: rgba(9, 9, 58, 0.8);
+   background-color: rgba(17, 34, 64, 0.9);
    width: max-content;
    position: fixed;
    left: 50%;
@@ -18,7 +18,7 @@ nav a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-dark);
+    color: var(--color-bg);
     font-size: 1.5rem;
 }
 
@@ -39,7 +39,7 @@ nav a.active {
         padding: 0.9rem;
         border-radius: 50%;
         display: flex;
-        color: var(--color-dark);
+        color: var(--color-bg);
         font-size: 1rem;
     }
 }

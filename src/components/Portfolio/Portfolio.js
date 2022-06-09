@@ -23,8 +23,8 @@ const data = [
     image: resto,
     title: 'RestoFOOD Resturant',
     details: 'HTML, CSS, ReactJs',
-    github: 'https://github.com/CydaCode/fylos.git',
-    demo: 'https://poetic-licorice-9afdeb.netlify.app/',
+    github: 'https://github.com/CydaCode/resturants.git',
+    demo: 'https://resturant-react-p.netlify.app/',
   },
   {
     id: 3,

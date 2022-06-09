@@ -1,17 +1,18 @@
  footer {
-     background: var(--color-primary);
+     background: var(--color-bg);
      padding: 3rem 0;
      text-align: center;
      font-size: 0.5rem;
-     margin-top: 7rem;
+     margin-top: 3rem;
+     /* margin-bottom: 4rem; */
  }
 
  footer a {
-     color: var(--color-bg);
+     color: var(--color-dark);
  }
 
  .footer-logo {
-     font-size: 2rem;
+     font-size: 1.5rem;
      font-weight: 500;
      margin-bottom: 2rem;
      display: inline-block;
@@ -30,17 +31,17 @@
      display: flex;
      justify-content: center;
      gap: 1rem;
-     margin-bottom: 4rem;
+     margin-bottom: 2rem;
      font-size: 0.8rem;
  }
 
  .footer-socials a {
-     background: var(--color-bg);
-     color: var(--color-black);
-     padding: 0.6rem;
+     background: var(--color-primary);
+     color: var(--color-bg);
+     padding: 0.5rem;
      border-radius: 0.7rem;
      display: flex;
-     border: 1pxsolid transparent;
+     border: 1px solid transparent;
  }
 
  .footer-socials a:hover {
@@ -50,9 +51,9 @@
  }
 
  .footer-copyright {
-     margin-bottom: 4rem;
-     color: var(--color-bg);
-     font-size: 00.8rem;
+     margin-bottom: 3rem;
+     color: var(--color-dark);
+     font-size: 0.8rem;
  }
 
 

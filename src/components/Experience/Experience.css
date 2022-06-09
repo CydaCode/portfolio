@@ -1,18 +1,10 @@
 
 #experience {
     padding-top: 3.9rem;
-    background: var(--color-bg1);
     /* margin-top: 75%; */
     padding-bottom: 3.5rem;
 }
 
-#experience h5 {
-    color: black;
-}
-
-#experience h2 {
-    color: var(--color-bg-varient);
-}
 .experience-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,7 +14,7 @@
 .experience-container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     border: 1px solid transparent;
     transition: var(--transition);
     margin-top: 4rem;

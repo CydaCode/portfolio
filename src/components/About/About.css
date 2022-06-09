@@ -102,6 +102,13 @@
 /* *************MEDIA QUERIES (SMALL DEVICE)*********** */
   
 @media  screen and (max-width: 600px) {
+   
+    #about {
+        padding-top: 0.1rem;
+    }
+    .about-container {
+        margin-top: 3rem;
+    }
     .about-me {
         width: 60%;
         margin: 0 auto 3rem;
