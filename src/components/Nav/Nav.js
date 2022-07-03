@@ -16,7 +16,7 @@ const Nav = () => {
         <a href='#' onClick={() =>  setActivePage('#')} className={activePage === '#'? 'active' : ''}><AiOutlineHome /></a>
         <a href='#about' onClick={() => setActivePage('#about')} className={activePage === '#about'? 'active' : ''}><BiUser /></a>
         <a href='#experience' onClick={() => setActivePage('#experience')} className={activePage === '#experience'? 'active' : ''}><BiBookAlt /></a>
-        <a href='#services' onClick={() => setActivePage('#services')} className={activePage === '#services'? 'active' : ''}><RiServiceFill /></a>
+        <a href='#portfolio' onClick={() => setActivePage('#portfolio')} className={activePage === '#portfolio'? 'active' : ''}><RiServiceFill /></a>
         <a href='#contact' onClick={() => setActivePage('#contact')} className={activePage === '#contact'? 'active' : ''}><MdOutlinePermContactCalendar /></a>
     </nav>
   )

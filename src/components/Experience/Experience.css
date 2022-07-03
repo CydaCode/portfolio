@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    
 }
 
 .experience-container > div {
@@ -18,6 +19,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     margin-top: 4rem;
+    
 }
 
 /* .experience-container > div:hover {

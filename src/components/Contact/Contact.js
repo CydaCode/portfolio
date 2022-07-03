@@ -22,20 +22,20 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+    <section id='contact' data-aos='fade-up'>
+      <h5 data-aos='fade-up'>Get In Touch</h5>
+      <h2 data-aos='fade-up'>Contact Me</h2>
 
-      <div className='container contact-container'>
+      <div className='container contact-container' data-aos='fade-up'>
         <div className='contact-options'>
-          <article className='contact-option'>
+          <article className='contact-option' data-aos='fade-up'>
             <MdOutlineEmail className='contact-option-icon'/>
             <h4>Email</h4>
             <h5>nwacynti25@gmail.com</h5>
             <a href='mailto:nwacynti25@gmail.com' target='_blank'>Send a message</a>
           </article>
 
-          <article className='contact-option'>
+          <article className='contact-option' data-aos='fade-up'>
             <RiMessengerLine className='contact-option-icon'/>
             <h4>Messenger</h4>
             <h5>Cy Tilda</h5>
@@ -52,7 +52,7 @@ const Contact = () => {
         {/* End f contact option */}
 
         {/* Beginnning of contact form */}
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} data-aos='fade-up'>
           <input type='text' placeholder='Your Full Name' name='name' required/>
           <input type='email' placeholder='Your Email' name='email'/>
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>

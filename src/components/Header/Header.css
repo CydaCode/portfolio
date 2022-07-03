@@ -8,7 +8,6 @@ header {
     justify-content: center;
     width: 100%;
     max-width: 100%;
-    height: 110vh;
     position: relative;
     
     
@@ -86,20 +85,6 @@ header {
     background-color: var(--color-primary);
 }
 
-/* *******ME************ */
-
-/* .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 19rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(85% - 9rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    margin-right: -4rem;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-} */
 
 /* ************SCROLL DOWN************ */
 
@@ -117,9 +102,6 @@ header {
 /* *************MEDIA QUERIES (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {
-    .container {
-      /* height: 68vh */
-    }  
     
     .scroll-down {
         position: absolute;
@@ -176,18 +158,6 @@ header {
     .container {
      /* height: 100vh; */
     } 
-    .me {
-        background: linear-gradient(var(--color-primary), transparent);
-        width: 19rem;
-        height: 30rem;
-        position: absolute;
-        left: calc(50% - 9rem);
-        margin-top: 4rem;
-        border-radius: 12rem 12rem 0 0;
-        overflow: hidden;
-        /* margin-right: -4rem; */
-        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-    } 
   
     .header-socials, .scroll-down {
         display: none;
@@ -203,9 +173,6 @@ header {
         
     }
 
-    header {
-        background-position: -9rem;
-    }
 
     .header_container{
         text-align: left;
@@ -221,7 +188,11 @@ header {
     }
 
     .lo1 h1 {
-        /* font-size: 1.9rem; */
+        font-size: 2.2rem;
+    }
+
+    .lo1 h2 {
+        font-size: 1.2rem;
     }
 
 

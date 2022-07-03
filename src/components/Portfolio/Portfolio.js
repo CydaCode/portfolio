@@ -31,20 +31,20 @@ const data = [
     image: portfo,
     title: 'My Portfolio',
     details: 'HTML, CSS, ReactJs',
-    github: 'https://github.com/CydaCode/fylos.git',
-    demo: 'https://poetic-licorice-9afdeb.netlify.app/',
+    github: 'https://github.com/CydaCode/portfolio.git',
+    demo: 'https://cynthia-portfolio.netlify.app/',
   }
 ]
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' data-aos='fade-up'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className='container portfolio-container'>
+      <div className='container portfolio-container' >
         {
           data.map(({id, image, title, details, github, demo}) => {
-            return <article key={id} className='portfolio-item'>
+            return <article key={id} className='portfolio-item' data-aos='fade-up'>
             <div className='portfolio-item-image'>
               <img src={image} alt={title}/>
             </div>

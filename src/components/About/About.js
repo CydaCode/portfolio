@@ -8,42 +8,25 @@ import {AiOutlineFolderOpen} from 'react-icons/ai'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me </h2>
+
+      
 
       <div className=' container about-container'>
-        <div className='about-me'>
+        <div className='about-me' data-aos='fade-up'>
           <div className='about-me-image'> 
             <img src={Me2} alt=''/>
           </div>
         </div>
 
-        <div className='about-content'>
-          {/* <div className='about-cards'>
-            <article className='about-card'>
-              <FaAward className='about-icon'/>
-              <h5>Experience</h5>
-              <small>2+ Years Work</small>
-            </article>
-
-            <article className='about-card'>
-              <FiUsers className='about-icon'/>
-              <h5>Clients</h5>
-              <small>50+ Worldwide</small>
-            </article>
-
-            <article className='about-card'>
-              <AiOutlineFolderOpen className='about-icon'/>
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
-            </article>
-          </div> */}
+        
+        <div className='about-content' data-aos='fade-up'>
+        <h5 className='center'>Get To Know</h5>
+        <h2 className='ho center'>About Me </h2>
           <p>
           Cynthia Nwankwo is a meticulous Front-End Web developer with
-          experience who has passion for responsive website design and a 
-          firm believer in the mobile-first approach. I have worked with 
-          teams of various size and made meaningful contributions.
-
+          experience, who has passion for responsive website design and a 
+          firm believer in the mobile-first approach. I am Currently a volunteer as the Learning Manager for <span className='ho'>Techathon Mentorship and OpenSource</span>, where we help newbies transform properly into the tech world. 
+          I am an entry level developer at <a href='https://tiidelab.com/'>TIIDELab Fellowship</a> where I am working with a group of talented individauls to build amazing projects.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
