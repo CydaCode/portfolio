@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import ME from '../../assets/cyntrans.png'
 import HeaderSocials from './HeaderSocials'
 import {MdWavingHand} from 'react-icons/md'
 

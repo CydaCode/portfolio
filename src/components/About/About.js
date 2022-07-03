@@ -1,9 +1,7 @@
 import React from 'react'
 import './About.css'
 import Me2 from '../../assets/me2.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {AiOutlineFolderOpen} from 'react-icons/ai'
+
 
 const About = () => {
   return (

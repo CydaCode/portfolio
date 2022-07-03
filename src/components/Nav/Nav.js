@@ -8,12 +8,12 @@ import {MdOutlinePermContactCalendar} from 'react-icons/md'
 
 
 const Nav = () => {
-    const[activePage, setActivePage] = useState('#')
+    const[activePage, setActivePage] = useState('#header')
 
 
   return (
     <nav id='nav'>
-        <a href='#' onClick={() =>  setActivePage('#')} className={activePage === '#'? 'active' : ''}><AiOutlineHome /></a>
+        <a href='#header' onClick={() =>  setActivePage('#header')} className={activePage === '#header'? 'active' : ''}><AiOutlineHome /></a>
         <a href='#about' onClick={() => setActivePage('#about')} className={activePage === '#about'? 'active' : ''}><BiUser /></a>
         <a href='#experience' onClick={() => setActivePage('#experience')} className={activePage === '#experience'? 'active' : ''}><BiBookAlt /></a>
         <a href='#portfolio' onClick={() => setActivePage('#portfolio')} className={activePage === '#portfolio'? 'active' : ''}><RiServiceFill /></a>
