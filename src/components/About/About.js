@@ -21,10 +21,16 @@ const About = () => {
         <h5 className='center'>Get To Know</h5>
         <h2 className='ho center'>About Me </h2>
           <p>
-          Cynthia Nwankwo is a meticulous Front-End Web developer with
-          experience, who has passion for responsive website design and a 
-          firm believer in the mobile-first approach. I am Currently a volunteer as the Learning Manager for <span className='ho'>Techathon Mentorship and OpenSource</span>, where we help newbies transform properly into the tech world. 
-          I am an entry level developer at <a href='https://tiidelab.com/'>TIIDELab Fellowship</a> where I am working with a group of talented individauls to build amazing projects.
+          Cynthia Nwankwo is a Meticulous Software Developer, 
+          who is driven with passion to contribute in the software 
+          technology sector and profer solutions. She is a graduate 
+          of Chemistry in Federal University of Technology Minna, Nigeria.. 
+          I am Currently a volunteer as the Learning Manager for 
+          <span className='ho'>Techathon Mentorship and OpenSource</span>, 
+          where we help newbies transform properly into the tech world. 
+          I am an entry level developer at <a href='https://tiidelab.com/'>
+          TIIDELab Fellowship</a> where I am working with a group of talented 
+          individauls to build amazing projects.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
